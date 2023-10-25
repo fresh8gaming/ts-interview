@@ -1,0 +1,39 @@
+{
+  "name": "node-typescript-template",
+  "description": "A template for building node typescript micro services",
+  "main": "build/index.js",
+  "private": true,
+  "license": "UNLICENSED",
+  "scripts": {
+    "lint": "prettier src",
+    "lint-fix": "prettier src --write",
+    "test": "jest",
+    "test:api": "jest -- ./api",
+    "test:main": "jest -- main.spec.ts",
+    "test:main:watch": "jest --watch -- main.spec.ts",
+    "test-watch": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:fresh8gaming/node-typescript-template"
+  },
+  "devDependencies": {
+    "@types/bunyan": "^1.8.8",
+    "@types/dotenv-flow": "^3.2.0",
+    "@types/jest": "^28.1.4",
+    "@types/node": "^18.0.3",
+    "@typescript-eslint/eslint-plugin": "^5.30.5",
+    "@typescript-eslint/parser": "^5.30.5",
+    "jest": "^28.1.2",
+    "nodemon": "^2.0.19",
+    "prettier": "^2.7.1",
+    "ts-jest": "^28.0.5",
+    "ts-node": "^10.8.2",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "bunyan": "^1.8.15",
+    "dotenv-flow": "^3.2.0",
+    "envalid": "^7.3.1"
+  }
+}

@@ -1,0 +1,16 @@
+[
+  {
+    "id": "001",
+    "name": "Signed Messi Shirt",
+    "category": "Football",
+    "quality": "new",
+    "price": 5.0
+  },
+  {
+    "id": "002",
+    "name": "Match ball signed by Lebron James",
+    "category": "Basketball",
+    "quality": "used",
+    "price": 10.0
+  }
+]
